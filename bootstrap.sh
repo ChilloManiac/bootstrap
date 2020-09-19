@@ -16,3 +16,7 @@ echo '127.0.0.1     localhost
 ::1                 localhost
 127.0.1.1           cnor.localdomain cnor' > /etc/hostname
 
+mkinitcpio -P
+
+passwd
+
