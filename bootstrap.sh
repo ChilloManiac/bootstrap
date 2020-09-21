@@ -18,5 +18,5 @@ echo '127.0.0.1     localhost
 
 mkinitcpio -P
 
-sudo passwd
+passwd
 
