@@ -22,11 +22,15 @@ echo '127.0.0.1     localhost
 
 echo 'cbook' > /etc/hostname
 
+
+echo "get git"
+pacman -S git --noconfirm
+
+echo "Make user"
 useradd -m cnor
 su cnor
 
 echo "Making yay"
-pacman -S git --noconfirm
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
