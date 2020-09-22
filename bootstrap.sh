@@ -25,13 +25,12 @@ echo "Setting up network"
 pacman -Syy
 pacman -Syu --noconfirm
 pacman -S networkmanager --noconfirm
-
-echo "making getinstall.sh"
-echo "curl https://raw.githubusercontent.com/ChilloManiac/bootstrap/master/install.sh > install.sh; chmod +x install.sh" > getinstall.sh
-chmod +x getinstall.sh
+pacman -S sudo vi --noconfirm
+pacman -S sway swayidle swaylock --noconfirm
 
 echo "----------------------------------------"
 echo "Please Install bootloader"
 echo "Please manually set passwd for root"
+echo "Add local user, and add to sudoers file with 'visudo'"
 
 
