@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 
 # Run this after changing root on arch
-# Set your own root password
 
 # Time setup
 echo "Setting up time"
@@ -31,11 +30,13 @@ useradd -m cnor
 su cnor
 
 echo "Making yay"
+cd ~
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 cd ..
 rm -rf yay
 
-echo "Please install a bootloader manually"
+echo "Please Install bootloader"
+echo "Please manually set passwd for root and user"
 
