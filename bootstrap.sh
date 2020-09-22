@@ -21,6 +21,11 @@ echo '127.0.0.1     localhost
 
 echo 'cbook' > /etc/hostname
 
+echo "Setting up network"
+pacman -Syy
+pacman -Syu --noconfirm
+pacman -S networkmanager --noconfirm
+
 echo "making getinstall.sh"
 echo "curl https://raw.githubusercontent.com/ChilloManiac/bootstrap/master/install.sh > install.sh; chmod +x install.sh" > getinstall.sh
 chmod +x getinstall.sh
