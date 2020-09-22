@@ -34,5 +34,3 @@ echo "----------------------------------------"
 echo "Please Install bootloader"
 echo "Please manually set passwd for root"
 echo "Add local user, and add to sudoers file with 'visudo'"
-
-
