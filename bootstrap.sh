@@ -22,6 +22,9 @@ echo '127.0.0.1     localhost
 
 echo 'cbook' > /etc/hostname
 
+useradd -m cnor
+su cnor
+
 echo "Making yay"
 pacman -S git --noconfirm
 git clone https://aur.archlinux.org/yay.git
