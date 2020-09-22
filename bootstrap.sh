@@ -25,8 +25,10 @@ echo "Setting up network"
 pacman -Syy
 pacman -Syu --noconfirm
 pacman -S networkmanager --noconfirm
+
+systemctl enable NetworkManager.service
 pacman -S sudo vi --noconfirm
-pacman -S sway swayidle swaylock --noconfirm
+
 
 echo "----------------------------------------"
 echo "Please Install bootloader"
