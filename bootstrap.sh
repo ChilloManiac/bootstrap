@@ -21,7 +21,12 @@ echo '127.0.0.1     localhost
 
 echo 'cbook' > /etc/hostname
 
+echo "making getinstall.sh"
+echo "curl https://raw.githubusercontent.com/ChilloManiac/bootstrap/master/install.sh > install.sh; chmod +x install.sh" > getinstall.sh
+chmod +x getinstall.sh
+
 echo "----------------------------------------"
 echo "Please Install bootloader"
 echo "Please manually set passwd for root"
+
 
