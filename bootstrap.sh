@@ -15,7 +15,7 @@ echo 'LANG=en_US.UTF-8' > /etc/locale.conf
 
 echo '127.0.0.1     localhost
 ::1                 localhost
-127.0.1.1           cnor.localdomain cnor' > /etc/hosts
+127.0.1.1           cbook.localdomain cbook' > /etc/hosts
 
-echo 'cnor' > /etc/hostname
+echo 'cbook' > /etc/hostname
 
