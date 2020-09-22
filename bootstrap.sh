@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
 # Run this after changing root on arch
+# Set your own root password
 
 # Time setup
 ln -sf /usr/share/zoneinfo/Europe/Copenhagen /etc/localtime
@@ -14,9 +15,7 @@ echo 'LANG=en_US.UTF-8' > /etc/locale.conf
 
 echo '127.0.0.1     localhost
 ::1                 localhost
-127.0.1.1           cnor.localdomain cnor' > /etc/hostname
+127.0.1.1           cnor.localdomain cnor' > /etc/hosts
 
-mkinitcpio -P
-
-passwd
+echo 'cnor' > /etc/hostname
 
