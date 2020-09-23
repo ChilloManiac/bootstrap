@@ -29,13 +29,11 @@ pacman -S networkmanager --noconfirm
 systemctl enable NetworkManager.service
 pacman -S sudo vi --noconfirm
 useradd -m cnor
-sudo -S -u cnor pacman -S git base-devel --noconfirm
 
 cd /home/cnor/
-git clone https://github.com/ChilloManiac/bootstrap/
-
-cd -
+echo "git clone https://github.com/ChilloManiac/bootstrap/" > getrest.sh
 
 echo "----------------------------------------"
 echo "Please Install bootloader"
 echo "Please manually set passwd for root and cnor"
+echo "Add cnor to sudoers and install git and base-devel, then run getrest.sh"
