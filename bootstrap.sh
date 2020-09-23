@@ -27,7 +27,7 @@ pacman -Syu --noconfirm
 pacman -S networkmanager --noconfirm
 
 systemctl enable NetworkManager.service
-pacman -S sudo vi --noconfirm
+pacman -S sudo vi git base-devel --noconfirm
 
 
 echo "----------------------------------------"
