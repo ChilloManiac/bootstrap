@@ -29,8 +29,12 @@ pacman -S networkmanager --noconfirm
 systemctl enable NetworkManager.service
 pacman -S sudo vi git base-devel --noconfirm
 
+useradd -m cnor
+cd /home/cnor/
+git clone https://github.com/ChilloManiac/bootstrap/
+
+cd -
 
 echo "----------------------------------------"
 echo "Please Install bootloader"
-echo "Please manually set passwd for root"
-echo "Add local user, and add to sudoers file with 'visudo'"
+echo "Please manually set passwd for root and cnor"

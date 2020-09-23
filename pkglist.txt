@@ -17,9 +17,10 @@ pigz
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
-sway-borders-git
+sway
 swaylock-effects-git
 swayidle
+stow
 tar
 thunderbird
 tldr
