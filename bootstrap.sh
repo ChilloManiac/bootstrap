@@ -27,9 +27,10 @@ pacman -Syu --noconfirm
 pacman -S networkmanager --noconfirm
 
 systemctl enable NetworkManager.service
-pacman -S sudo vi git base-devel --noconfirm
-
+pacman -S sudo vi --noconfirm
 useradd -m cnor
+sudo -S -u pacman -S git base-devel --noconfirm
+
 cd /home/cnor/
 git clone https://github.com/ChilloManiac/bootstrap/
 
