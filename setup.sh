@@ -16,8 +16,8 @@ stow confs
 cd ~
 
 # Set shell
-chsh -s /usr/bin/zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+mv ~/.zshrc.pre-oh-my-zsh ~/.zshrc
 
 # Setup Greeter
 
@@ -25,8 +25,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # Config Vim?
 
-#reboot
-reboot
 
 # TODO
 ## Wayland Environments (firefox etc)
