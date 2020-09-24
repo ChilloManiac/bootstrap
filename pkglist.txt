@@ -8,6 +8,7 @@ gzip
 htop
 lastpass-cli
 less
+man
 neofetch
 neovim
 network-manager-applet
@@ -34,3 +35,7 @@ which
 whois
 zathura
 zsh
+slurp
+grim
+rofi
+xorg-server-xwayland
