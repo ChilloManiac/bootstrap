@@ -28,6 +28,7 @@ git clone https://github.com/Aloxaf/fzf-tab ~/.oh-my-zsh/custom/plugins/fzf-tab
 # Setup asdf
 
 # Config Vim?
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 reboot
 
@@ -36,4 +37,7 @@ reboot
 ## Wayland Environments (firefox etc)
 ## Add hotkey to grim/slurp
 ## fzf tab
+## Configure swaylock and sway
+## Get Sway-borders when they are on AUR?
+## Get and configure bar
 

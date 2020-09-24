@@ -39,3 +39,4 @@ slurp
 grim
 rofi
 xorg-server-xwayland
+wdisplays
