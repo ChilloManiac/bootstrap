@@ -21,6 +21,8 @@ chsh -s /usr/bin/zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 mv ~/.zshrc.pre-oh-my-zsh ~/.zshrc
 
+git clone https://github.com/Aloxaf/fzf-tab ~/.oh-my-zsh/custom/plugins/fzf-tab
+
 # Setup Greeter
 
 # Setup asdf
@@ -33,4 +35,5 @@ reboot
 # TODO
 ## Wayland Environments (firefox etc)
 ## Add hotkey to grim/slurp
+## fzf tab
 
