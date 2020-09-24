@@ -27,6 +27,14 @@ git clone https://github.com/Aloxaf/fzf-tab ~/.oh-my-zsh/custom/plugins/fzf-tab
 
 # Setup asdf
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
+exec zsh # reload session
+asdf plugin add node
+asdf plugin add yarn
+bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+asdf install nodejs
+asdf global nodejs $(asdf latest nodejs)
+asdf install yarn
+asdf global yarn $(asdf latest yarn)
 
 # Config Vim?
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
