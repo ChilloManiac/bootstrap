@@ -26,6 +26,7 @@ git clone https://github.com/Aloxaf/fzf-tab ~/.oh-my-zsh/custom/plugins/fzf-tab
 # Setup Greeter
 
 # Setup asdf
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
 
 # Config Vim?
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
