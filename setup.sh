@@ -27,6 +27,8 @@ mv ~/.zshrc.pre-oh-my-zsh ~/.zshrc
 
 # Config Vim?
 
+reboot
+
 
 # TODO
 ## Wayland Environments (firefox etc)
