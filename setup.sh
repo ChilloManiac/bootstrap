@@ -28,7 +28,8 @@ git clone https://github.com/Aloxaf/fzf-tab ~/.oh-my-zsh/custom/plugins/fzf-tab
 
 # Setup asdf
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
-~/.asdf/asdf.sh # Still not working
+chmod +x ~/.asdf.asdf.sh
+. ~/.asdf/asdf.sh
 asdf plugin add node
 asdf plugin add yarn
 bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
