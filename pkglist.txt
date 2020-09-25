@@ -9,7 +9,7 @@ lastpass-cli
 less
 man
 neofetch
-neovim
+neovim-nightly
 network-manager-applet
 nnn
 pamixer
