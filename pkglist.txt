@@ -1,7 +1,6 @@
 alacritty
 docker
 firefox
-flameshot
 fzf
 git
 gzip
@@ -27,7 +26,6 @@ thunderbird
 tldr
 vi
 vim
-vlc
 vulkan-intel
 vulkan-tools
 wget
