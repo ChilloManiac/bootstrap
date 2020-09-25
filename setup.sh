@@ -6,6 +6,7 @@ cd ..
 rm -rf yay
 
 # Install packages
+yay -Syu --noconfirm
 yay -S - --noconfirm < ./pkglist.txt
 
 # Get dotfiles and stow
