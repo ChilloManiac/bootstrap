@@ -30,15 +30,17 @@ git clone https://github.com/Aloxaf/fzf-tab ~/.oh-my-zsh/custom/plugins/fzf-tab
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
 chmod +x ~/.asdf.asdf.sh
 . ~/.asdf/asdf.sh
-asdf plugin add node
+asdf plugin add nodejs
 asdf plugin add yarn
 bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
-asdf install nodejs
+asdf install nodejs latest
 asdf global nodejs $(asdf latest nodejs)
-asdf install yarn
+asdf install yarn latest
 asdf global yarn $(asdf latest yarn)
 
 # Config Vim?
+npm g -i neovim
+pip3 install pynvim
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
@@ -48,7 +50,6 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 # TODO
 ## Wayland Environments (firefox etc)
 ## Add hotkey to grim/slurp
-## fzf tab
 ## Configure swaylock and sway
 ## Get Sway-borders when they are on AUR?
 ## Get and configure bar

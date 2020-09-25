@@ -38,3 +38,5 @@ grim
 rofi
 xorg-server-xwayland
 wdisplays
+python
+python-pip
