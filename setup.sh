@@ -7,7 +7,7 @@ rm -rf yay
 
 # Setup asdf
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
-chmod +x ~/.asdf.asdf.sh
+chmod +x ~/.asdf/asdf.sh
 . ~/.asdf/asdf.sh
 asdf plugin add nodejs
 asdf plugin add yarn
