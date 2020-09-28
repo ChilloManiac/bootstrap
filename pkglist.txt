@@ -40,3 +40,5 @@ xorg-server-xwayland
 wdisplays
 python
 python-pip
+waybar
+nerd-fonts-fira-code
