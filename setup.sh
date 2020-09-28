@@ -5,6 +5,18 @@ makepkg -si --noconfirm
 cd ..
 rm -rf yay
 
+# Setup asdf
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
+chmod +x ~/.asdf.asdf.sh
+. ~/.asdf/asdf.sh
+asdf plugin add nodejs
+asdf plugin add yarn
+bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+asdf install nodejs latest
+asdf global nodejs $(asdf latest nodejs)
+asdf install yarn latest
+asdf global yarn $(asdf latest yarn)
+
 # Install packages
 yay -Syu --noconfirm
 yay -S - --noconfirm < ./pkglist.txt
@@ -25,18 +37,6 @@ mv ~/.zshrc.pre-oh-my-zsh ~/.zshrc
 git clone https://github.com/Aloxaf/fzf-tab ~/.oh-my-zsh/custom/plugins/fzf-tab
 
 # Setup Greeter
-
-# Setup asdf
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
-chmod +x ~/.asdf.asdf.sh
-. ~/.asdf/asdf.sh
-asdf plugin add nodejs
-asdf plugin add yarn
-bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
-asdf install nodejs latest
-asdf global nodejs $(asdf latest nodejs)
-asdf install yarn latest
-asdf global yarn $(asdf latest yarn)
 
 # Config Vim?
 npm g -i neovim
