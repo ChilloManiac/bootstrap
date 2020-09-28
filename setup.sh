@@ -50,7 +50,12 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 # TODO
 ## Wayland Environments (firefox etc)
 ## Add hotkey to grim/slurp
-## Configure swaylock and sway
 ## Get Sway-borders when they are on AUR?
 ## Get and configure bar
-
+## Finish settup up hotkeys (firefox, lock etc)
+## Nord theme all the things, maybe including swaylock
+## Get real background
+## get fasd
+## Get other apps, steam etc.
+## Kitty & Completions for kitty
+## 
