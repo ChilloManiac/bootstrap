@@ -9,7 +9,7 @@ rm -rf yay
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
 chmod +x ~/.asdf/asdf.sh
 . ~/.asdf/asdf.sh
-asdf plugin add nodejs
+asdf plugin add nodejs #Some error on nodejs
 asdf plugin add yarn
 bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 asdf install nodejs latest
