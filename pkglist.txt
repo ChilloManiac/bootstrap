@@ -41,4 +41,4 @@ wdisplays
 python
 python-pip
 waybar
-nerd-fonts-fira-code
+otf-nerd-fonts-fira-code

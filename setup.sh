@@ -5,6 +5,10 @@ makepkg -si --noconfirm
 cd ..
 rm -rf yay
 
+# Install packages
+yay -Syu --noconfirm
+yay -S - --noconfirm < ./pkglist.txt
+
 # Setup asdf
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
 chmod +x ~/.asdf/asdf.sh
@@ -16,10 +20,6 @@ asdf install nodejs 14.13.0
 asdf global nodejs 14.13.0
 asdf install yarn 1.22.5
 asdf global yarn 1.22.5
-
-# Install packages
-yay -Syu --noconfirm
-yay -S - --noconfirm < ./pkglist.txt
 
 # Get dotfiles and stow
 rm ~/.zshrc
@@ -58,4 +58,3 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ## get fasd
 ## Get other apps, steam etc.
 ## Kitty & Completions for kitty
-## 
