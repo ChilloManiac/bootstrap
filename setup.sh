@@ -37,7 +37,6 @@ mv ~/.zshrc.pre-oh-my-zsh ~/.zshrc
 git clone https://github.com/Aloxaf/fzf-tab ~/.oh-my-zsh/custom/plugins/fzf-tab
 
 # Setup Greeter
-sudo systemctl enable sddm.service
 
 # Config Vim?
 npm g -i neovim
@@ -56,5 +55,5 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ## Nord theme all the things, maybe including swaylock
 ## Get real background
 ## get fasd
-## Get other apps, steam etc.
-## Kitty & Completions for kitty
+## Completions for kitty
+## Probably use lightdm-webkit-greeter instead of sddm? https://github.com/iamsubhranil/Rice/blob/master/lightdm-webkit2-greeter_executive.md
