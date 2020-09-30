@@ -37,6 +37,7 @@ mv ~/.zshrc.pre-oh-my-zsh ~/.zshrc
 git clone https://github.com/Aloxaf/fzf-tab ~/.oh-my-zsh/custom/plugins/fzf-tab
 
 # Setup Greeter
+sudo systemctl enable sddm.service
 
 # Config Vim?
 npm g -i neovim

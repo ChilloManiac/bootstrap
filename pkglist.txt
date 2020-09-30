@@ -10,7 +10,6 @@ less
 man
 neofetch
 neovim-nightly
-network-manager-applet
 nnn
 pamixer
 pigz
@@ -42,3 +41,5 @@ python
 python-pip
 waybar
 otf-nerd-fonts-fira-code
+sddm
+sddm-nordic-theme-git
