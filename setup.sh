@@ -12,10 +12,10 @@ chmod +x ~/.asdf/asdf.sh
 asdf plugin add nodejs #Some error on nodejs
 asdf plugin add yarn
 bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
-asdf install nodejs latest
-asdf global nodejs $(asdf latest nodejs)
-asdf install yarn latest
-asdf global yarn $(asdf latest yarn)
+asdf install nodejs 14.13.0
+asdf global nodejs 14.13.0
+asdf install yarn 1.22.5
+asdf global yarn 1.22.5
 
 # Install packages
 yay -Syu --noconfirm
