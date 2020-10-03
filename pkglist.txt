@@ -42,3 +42,5 @@ python-pip
 waybar
 otf-nerd-fonts-fira-code
 python-pynvim
+sddm
+fasd
