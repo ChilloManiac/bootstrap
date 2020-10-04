@@ -41,6 +41,7 @@ git clone https://github.com/Aloxaf/fzf-tab ~/.oh-my-zsh/custom/plugins/fzf-tab
 
 # Setup Greeter
 sudo systemctl enable greetd.service
+sudo mv ~/bootstrap/greetd.config.toml /etc/greetd/config.toml
 
 # Config Vim?
 npm g -i neovim
