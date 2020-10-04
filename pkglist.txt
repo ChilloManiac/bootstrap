@@ -44,4 +44,5 @@ otf-nerd-fonts-fira-code
 python-pynvim
 sddm
 fasd
+greetd
 greetd-tuigreet
