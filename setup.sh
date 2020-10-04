@@ -1,3 +1,6 @@
+# Create greeter user
+sudo useradd greeter
+
 # Get Yay
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -37,6 +40,7 @@ mv ~/.zshrc.pre-oh-my-zsh ~/.zshrc
 git clone https://github.com/Aloxaf/fzf-tab ~/.oh-my-zsh/custom/plugins/fzf-tab
 
 # Setup Greeter
+sudo systemctl enable greetd.service
 
 # Config Vim?
 npm g -i neovim
@@ -58,7 +62,4 @@ sudo systemctl enable sddm.service
 ## Finish settup up hotkeys (firefox, lock etc)
 ## Nord theme all the things, maybe including swaylock
 ## Get real background
-## get fasd
-## Completions for kitty
-## Probably use lightdm-webkit-greeter instead of sddm? https://github.com/iamsubhranil/Rice/blob/master/lightdm-webkit2-greeter_executive.md
-# https://github.com/off-world/lightdm-tiny-greeter
+
