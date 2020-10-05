@@ -31,6 +31,7 @@ git clone https://github.com/ChilloManiac/dotfiles.git /home/cnor/stow
 cd /home/cnor/stow
 stow confs
 cd ~
+stow -S -d ~/stow -t /usr/local/bin/ usrlocalbin
 
 # Set shell
 chsh -s /usr/bin/zsh
@@ -54,7 +55,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 
 # TODO
-## Wayland Environments (firefox etc)
+## Wayland Environments (firefox etc) Check greetd wiki
 ## Add hotkey to grim/slurp
 ## Get Sway-borders when they are on AUR?
 ## Get and configure bar
