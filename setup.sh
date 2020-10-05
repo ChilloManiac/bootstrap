@@ -12,6 +12,9 @@ rm -rf yay
 yay -Syu --noconfirm
 yay -S - --noconfirm < ./pkglist.txt
 
+# background
+sudo mv main.jpg /usr/share/backgrounds/
+
 # Setup asdf
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
 chmod +x ~/.asdf/asdf.sh
@@ -31,7 +34,9 @@ git clone https://github.com/ChilloManiac/dotfiles.git /home/cnor/stow
 cd /home/cnor/stow
 stow confs
 cd ~
-stow -S -d ~/stow -t /usr/local/bin/ usrlocalbin
+sudo stow -S -d ~/stow -t /usr/local/bin/ usrlocalbin
+sudo chmod +x /usr/local/bin/sway-run.sh
+sudo chmod +x /usr/local/bin/wayland_enablement.sh
 
 # Set shell
 chsh -s /usr/bin/zsh
@@ -50,16 +55,11 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 
-
 #reboot
 
 
 # TODO
-## Wayland Environments (firefox etc) Check greetd wiki
-## Add hotkey to grim/slurp
 ## Get Sway-borders when they are on AUR?
-## Get and configure bar
-## Finish settup up hotkeys (firefox, lock etc)
 ## Nord theme all the things, maybe including swaylock
 ## Get real background
 
