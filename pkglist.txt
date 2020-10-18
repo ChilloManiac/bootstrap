@@ -45,3 +45,11 @@ python-pynvim
 fasd
 greetd
 greetd-tuigreet
+network-manager-applet
+openssh
+wl-clipboard
+imv
+zathura-pdf-mupdf
+ranger
+python-pillow
+poppler
