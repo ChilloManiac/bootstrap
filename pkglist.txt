@@ -53,3 +53,4 @@ zathura-pdf-mupdf
 ranger
 python-pillow
 poppler
+highlight
