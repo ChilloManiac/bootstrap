@@ -54,3 +54,8 @@ ranger
 python-pillow
 poppler
 highlight
+aerc
+w3m
+dante
+emacs-git
+pavucontrol

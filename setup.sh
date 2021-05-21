@@ -58,6 +58,4 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 reboot
 
 
-# TODO
-## Get Sway-borders when they are on AUR?
 
