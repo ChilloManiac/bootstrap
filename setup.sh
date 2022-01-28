@@ -34,9 +34,8 @@ git clone https://github.com/ChilloManiac/dotfiles.git /home/cnor/stow
 cd /home/cnor/stow
 stow confs
 cd ~
-sudo stow -S -d ~/stow -t /usr/local/bin/ usrlocalbin
-sudo chmod +x /usr/local/bin/sway-run.sh
-sudo chmod +x /usr/local/bin/wayland_enablement.sh
+
+# Install sessions
 
 # Set shell
 chsh -s /usr/bin/zsh
@@ -45,9 +44,7 @@ mv ~/.zshrc.pre-oh-my-zsh ~/.zshrc
 
 git clone https://github.com/Aloxaf/fzf-tab ~/.oh-my-zsh/custom/plugins/fzf-tab
 
-# Setup Greeter
-sudo systemctl enable greetd.service
-sudo mv ~/bootstrap/greetd.config.toml /etc/greetd/config.toml
+# Setup Sddm
 
 # Config Vim?
 npm g -i neovim

@@ -1,61 +1,195 @@
-kitty
-docker
-firefox
-fzf
-git
-gzip
-htop
-lastpass-cli
-less
-man
-neofetch
-neovim-nightly
-nnn
-pamixer
-pigz
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
-sway
-swaylock-effects-git
-swayidle
-stow
-tar
-thunderbird
-tldr
-vi
-vim
-vulkan-intel
-vulkan-tools
-wget
-which
-whois
-zathura
-zsh
-slurp
-grim
-rofi
-xorg-server-xwayland
-wdisplays
-python
-python-pip
-waybar
-otf-nerd-fonts-fira-code
-python-pynvim
-fasd
-greetd
-greetd-tuigreet
-network-manager-applet
-openssh
-wl-clipboard
-imv
-zathura-pdf-mupdf
-ranger
-python-pillow
-poppler
-highlight
-aerc
-w3m
-dante
-emacs-git
-pavucontrol
+acpi 1.7-3
+antibody 6.1.1-1
+ao 7.0.1-1
+arandr 0.1.10-7
+arc-icon-theme 20161122-3
+aura-bin 3.2.6-1
+autoconf 2.71-1
+automake 1.16.5-1
+base 2-2
+binutils 2.36.1-3
+bison 3.8.2-1
+blueman 2.2.3-2
+bluez 5.63-1
+bluez-utils 5.63-1
+boost 1.78.0-1
+cfssl 1.6.1-2
+cups 1:2.4.0-4
+devtools 20211129-1
+dialog 1:1.3_20211214-1
+discord 0.0.16-1
+displaylink 5.4.1-1
+docker 1:20.10.12-1
+docker-rootless-extras-bin 20.10.9-1
+dolphin 21.12.1-1
+dosfstools 4.2-1
+efibootmgr 17-2
+etcd 3.5.1-1
+exfatprogs 1.1.3-1
+fakeroot 1.27-1
+fasd 1.0.1-3
+fd 8.3.1-1
+firefox 96.0.2-1
+flameshot-git r1537.65f8ac04-1
+flex 2.6.4-3
+fprintd 1.94.1-1
+fzf 0.29.0-1
+gcc 11.1.0-3
+git 2.34.1-1
+gnome-keyring 1:40.0-1
+google-chrome 96.0.4664.110-1
+gotop 4.1.2-1
+graphviz 2.50.0-2
+groff 1.22.4-6
+grub 2:2.06-4
+gtk2 2.24.33-2
+gtkmm 1:2.24.5-4
+highlight 4.1-1
+htop 3.1.2-1
+imv 4.3.1-2
+intel-ucode 20210608-1
+jq 1.6-4
+kitty 0.24.1-1
+lastpass-cli 1.3.3-2
+lib32-giflib 5.2.1-1
+lib32-gnutls 3.7.3-1
+lib32-gst-plugins-base-libs 1.18.4-1
+lib32-gtk3 3.24.31-1
+lib32-libgcrypt 1.9.4-1
+lib32-libjpeg-turbo 2.1.2-1
+lib32-libpng 1.6.37-3
+lib32-libpulse 15.0-1
+lib32-libva 2.13.0-1
+lib32-libxcomposite 0.4.5-1
+lib32-libxinerama 1.1.4-1
+lib32-libxslt 1.1.34-2
+lib32-mpg123 1.29.3-1
+lib32-ocl-icd 2.3.1-1
+lib32-openal 1.21.1-2
+lib32-v4l-utils 1.22.1-1
+libfprint 1.94.2-1
+libtool 2.4.6+42+gb88cebd5-16
+linux 5.16.1.arch1-1
+linux-firmware 20211216.f682ecb-1
+linux-headers 5.16.1.arch1-1
+lvm2 2.03.14-2
+m4 1.4.19-1
+make 4.3-3
+man-db 2.9.4-2
+mpg123 1.29.3-1
+mtools 1:4.0.37-1
+ncdu 1.16-2
+neofetch 7.1.0-2
+neovim 0.6.1-1
+net-tools-debian-ifconfig 1.60.20161209git-2
+network-manager-applet 1.24.0-1
+networkmanager 1.34.0-1
+nmap 7.92-1
+ntfs-3g 2021.8.22-1
+ocl-icd 2.3.1-1
+openssh 8.8p1-1
+os-prober 1.79-1
+otf-nerd-fonts-fira-code 2.1.0-3
+pa-applet-git 19.3b4f8b3-1
+pamixer 1.5-3
+pandoc 2.14.2-10
+pasystray 0.8.0-1
+patch 2.7.6-8
+pavucontrol 1:5.0-1
+pcsclite 1.9.5-1
+peek-git 1.5.1.r76.g379874a-1
+picom 8.2-1
+pigz 2.6-1
+pkgconf 1.8.0-1
+plantuml 1.2021.16-1
+postman-bin 9.7.1-1
+pulseaudio-bluetooth 15.0-1
+pulseaudio-ctl 1.70-1
+pulseaudio-zeroconf 15.0-1
+ranger 1.9.3-4
+reflector 2021.11-2
+ripgrep 13.0.0-2
+rofi 1.7.2-1
+scrot 1.7-1
+seahorse 1:41.0-2
+slack-desktop 4.23.0-1
+spotify 1:1.1.72.439-1
+stow 2.3.1-3
+sudo 1.9.8.p2-3
+texinfo 6.8-2
+thunderbird 91.5.0-2
+tldr 3.0.0-1
+tree 2.0.1-2
+ttf-dejavu-sans-mono-powerline-git r202.e80e3eb-1
+ttf-jetbrains-mono-git 2.242.r18.g81cb46a-1
+unzip 6.0-16
+vim 8.2.4106-1
+visual-studio-code-bin 1.63.2-1
+vlc 3.0.16-6
+vulkan-intel 21.3.4-1
+vulkan-tools 1.2.199-1
+wget 1.21.2-1
+which 2.21-5
+whois 5.5.11-1
+wireless_tools 30.pre9-3
+wpa_supplicant 2:2.9-8
+xclip 0.13-3
+xdg-user-dirs 0.17-3
+xdg-utils 1.1.3+19+g9816ebb-1
+xf86-input-synaptics 1.9.1-3
+xf86-video-intel 1:2.99.917+916+g31486f40-2
+xf86-video-vesa 2.5.0-2
+xorg-bdftopcf 1.1-2
+xorg-docs 1.7.1-3
+xorg-font-util 1.3.2-2
+xorg-fonts-100dpi 1.0.3-7
+xorg-fonts-75dpi 1.0.3-7
+xorg-fonts-encodings 1.0.5-2
+xorg-iceauth 1.0.8-2
+xorg-mkfontscale 1.2.1-2
+xorg-server 21.1.3-1
+xorg-server-common 21.1.3-1
+xorg-server-devel 21.1.3-1
+xorg-server-xephyr 21.1.3-1
+xorg-server-xnest 21.1.3-1
+xorg-server-xvfb 21.1.3-1
+xorg-sessreg 1.1.2-2
+xorg-setxkbmap 1.3.2-2
+xorg-smproxy 1.0.6-3
+xorg-x11perf 1.6.1-2
+xorg-xauth 1.1.1-1
+xorg-xbacklight 1.2.3-2
+xorg-xcmsdb 1.0.5-3
+xorg-xcursorgen 1.0.7-2
+xorg-xdpyinfo 1.3.2-4
+xorg-xdriinfo 1.0.6-2
+xorg-xev 1.2.4-1
+xorg-xgamma 1.0.6-3
+xorg-xhost 1.0.8-2
+xorg-xinit 1.4.1-3
+xorg-xinput 1.6.3-2
+xorg-xkbcomp 1.4.5-1
+xorg-xkbevd 1.1.4-3
+xorg-xkbutils 1.0.4-4
+xorg-xkill 1.0.5-2
+xorg-xlsatoms 1.1.3-2
+xorg-xlsclients 1.1.4-2
+xorg-xmodmap 1.0.10-2
+xorg-xpr 1.0.5-2
+xorg-xrandr 1.5.1-2
+xorg-xrdb 1.2.1-1
+xorg-xrefresh 1.0.6-2
+xorg-xsetroot 1.1.2-2
+xorg-xvinfo 1.1.4-2
+xorg-xwayland 21.1.4-1
+xorg-xwd 1.0.8-1
+xorg-xwininfo 1.1.5-2
+xorg-xwud 1.0.5-2
+xsecurelock 1.7.0-1
+xss-lock 0.3.0.g1e158fb20108-4
+yay 11.0.2-1
+zathura 0.4.8-1
+zathura-pdf-mupdf 0.3.7-1
+zip 3.0-9
+zls-git r844.7793b72-1
+zsh 5.8-1
